@@ -17,6 +17,7 @@
     <!-- build:css({.tmp,app}) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <script src='https://cdn.firebase.com/js/client/1.0.15/firebase.js'></script>
     <!-- endbuild -->
   </head>
   <body ng-app="jackApp">
@@ -36,6 +37,9 @@
 
        ga('create', 'UA-XXXXX-X');
        ga('send', 'pageview');
+    </script>
+    <script type="text/javascript">
+      var myDataRef = new Firebase('https://lilhvk6j806.firebaseio-demo.com/');
     </script>
 
 
